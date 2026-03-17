@@ -1,0 +1,98 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1343 >>
+stream
+BT
+/F1 12 Tf
+72 760 Td
+(Priya Sharma) Tj
+0 -16 Td
+(priya.sharma@example.com | +91 9876543210 | Bengaluru) Tj
+0 -16 Td
+(https://github.com/priyasharma) Tj
+0 -16 Td
+(https://linkedin.com/in/priyasharma) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(EDUCATION) Tj
+0 -16 Td
+(B.Tech Computer Science and Engineering) Tj
+0 -16 Td
+(National Unity University) Tj
+0 -16 Td
+(CGPA: 8.4 / 10) Tj
+0 -16 Td
+(12th: 91%) Tj
+0 -16 Td
+(10th: 93%) Tj
+0 -16 Td
+(Graduation: 2025) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(SKILLS) Tj
+0 -16 Td
+(Python, React, Node.js, PostgreSQL, Docker, AWS, C++, SQL, Git) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(PROJECTS) Tj
+0 -16 Td
+(Placement Portal | React, Node.js, PostgreSQL) Tj
+0 -16 Td
+(Built a campus placement dashboard with role based access, analytics, and interview scheduling.) Tj
+0 -16 Td
+(https://github.com/priyasharma/placement-portal) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Crop Yield Predictor | Python, Scikit-learn, Flask) Tj
+0 -16 Td
+(Created a machine learning project to predict crop yield using weather and soil data.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(EXPERIENCE) Tj
+0 -16 Td
+(Software Intern @ StartupX) Tj
+0 -16 Td
+(Worked on FastAPI services, SQL query tuning, and Docker based deployments.) Tj
+0 -16 Td
+(Jun 2024 - Aug 2024) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(CERTIFICATIONS) Tj
+0 -16 Td
+(AWS Cloud Practitioner) Tj
+0 -16 Td
+(Coursera Python for Data Science) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001636 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1706
+%%EOF
