@@ -30,8 +30,20 @@ export default function Register() {
         <div className="grid gap-4 md:grid-cols-2">
           <Input placeholder="Full name" value={form.fullName} onChange={(event) => setForm((current) => ({ ...current, fullName: event.target.value }))} />
           <Input placeholder="Roll number" value={form.rollNumber} onChange={(event) => setForm((current) => ({ ...current, rollNumber: event.target.value }))} />
-          <Input placeholder="Email" value={form.email} onChange={(event) => setForm((current) => ({ ...current, email: event.target.value }))} />
-          <Input type="password" placeholder="Password" value={form.password} onChange={(event) => setForm((current) => ({ ...current, password: event.target.value }))} />
+          <Input
+            type="email"
+            autoComplete="email"
+            placeholder="Email"
+            value={form.email}
+            onChange={(event) => setForm((current) => ({ ...current, email: event.target.value }))}
+          />
+          <Input
+            type="password"
+            autoComplete="new-password"
+            placeholder="Password"
+            value={form.password}
+            onChange={(event) => setForm((current) => ({ ...current, password: event.target.value }))}
+          />
           <Select value={form.department} onChange={(event) => setForm((current) => ({ ...current, department: event.target.value }))}>
             {DEPARTMENTS.slice(0, 4).map((department) => (
               <option key={department} value={department}>

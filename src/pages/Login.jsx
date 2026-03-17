@@ -19,8 +19,20 @@ export default function Login() {
           <h1 className="font-display text-3xl font-bold text-slate-900 dark:text-white">Login</h1>
           <p className="text-sm text-slate-500">Use the demo accounts or your own Supabase credentials.</p>
         </div>
-        <Input value={form.email} onChange={(event) => setForm((current) => ({ ...current, email: event.target.value }))} placeholder="Email" />
-        <Input type="password" value={form.password} onChange={(event) => setForm((current) => ({ ...current, password: event.target.value }))} placeholder="Password" />
+        <Input
+          type="email"
+          autoComplete="email"
+          value={form.email}
+          onChange={(event) => setForm((current) => ({ ...current, email: event.target.value }))}
+          placeholder="Email"
+        />
+        <Input
+          type="password"
+          autoComplete="current-password"
+          value={form.password}
+          onChange={(event) => setForm((current) => ({ ...current, password: event.target.value }))}
+          placeholder="Password"
+        />
         <Button
           className="w-full"
           disabled={loading}
