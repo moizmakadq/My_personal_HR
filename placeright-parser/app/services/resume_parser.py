@@ -48,7 +48,7 @@ class ResumeParser:
     def parse(self, pdf_bytes: bytes) -> dict:
         extraction = PDFExtractor.extract(pdf_bytes)
         raw_text = extraction["text"]
-        blocks = extraction.get("pages", [{}])[0].get("blocks", []) if extraction.get("pages") else []
+        blocks = [block for page in extraction.get("pages", []) for block in page.get("blocks", [])]
 
         if len(raw_text.strip()) < 50:
             raise ValueError("Could not extract sufficient text from PDF")
